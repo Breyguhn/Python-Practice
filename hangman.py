@@ -1,4 +1,4 @@
-## Hangman game ##
+## Hangman game v1.0 ##
 import random #This is a built in function that had the random function within
 
 def get_random_word():  #Pick a random word from the list words
