@@ -25,6 +25,7 @@ def process_letter(letter, secret_word, blanked_word):
 
 	return result
 
+
 def print_strikes(number_of_strikes):
 	for i in range(0, number_of_strikes):
 		print("X ", end="")
@@ -59,9 +60,6 @@ def play_word_game(): # This is where the actual game is run
 		print("We have a Winner!")
 	
 
-
 print("Let the game begin")
-
 play_word_game() # Call the game function above
-
 print("Game Over!") # If you run out of lives end game here
